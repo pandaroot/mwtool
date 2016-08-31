@@ -31,7 +31,7 @@ def showOptions():
 
 
 
-## USFNOTES Command Line Interface
+## MWTool Command Line Interface
 while runBoo:
 	init()
 	arg = str(input('Command: '))
