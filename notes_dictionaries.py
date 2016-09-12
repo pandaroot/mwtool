@@ -11,7 +11,8 @@ magicWords = {
 
 magicFileExtentions = [
 	".notes",
-	".py"
+	".md"
+	# ".py"
 	
 
 ]

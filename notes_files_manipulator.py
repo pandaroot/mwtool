@@ -29,7 +29,7 @@ def printOsTree():
 
 def list_files():
 	file_paths = []
-	for root, directories, files in os.walk(PATH_TO_USE):
+	for root, directories, files in os.walk(PATH_TO_USE, followlinks=True):
 		for filename in files:
 			filepath = os.path.join(root, filename)
 			if "pycache" not in filepath:
