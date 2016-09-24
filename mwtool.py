@@ -45,8 +45,6 @@ while runBoo:
 
 	## s 			show all the special notes
 	## u 			update annotations list
-	
-	
 	## q 			close the program
 	if 'q' == arg:
 		sys.exit(1)

@@ -5,7 +5,9 @@
 magicWords = {
 	"t": "TODO",
 	"f": "FIXME",
-	"r": "READ"
+	"r": "READ",
+	"p": "PROVA"
+
 }
 
 
